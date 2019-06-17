@@ -1,0 +1,26 @@
+
+
+body{
+    color:dodgerblue;
+    text-align: center;
+    background-color: aquamarine;
+    font-size: 12px;
+}
+
+
+label{
+    color:blue;
+    font-size: 80px;
+    text-decoration-line: underline;
+    text-decoration-color: black;
+}
+button{
+    font-size: 250%;
+
+}
+
+#jstext {
+  text-align: center;
+  font-size: 30px;
+  
+}

@@ -1,6 +1,6 @@
 function buttonPressed(){
     
-    var randomTopic = prompt("Pick a number between 1 and 2");
+    var randomTopic = prompt("Pick a number between 1 and 3");
 
     if(randomTopic == 1){
         alert("This is MadLibs! Press OK to continue!");
@@ -14,7 +14,7 @@ function buttonPressed(){
         document.querySelector("#jstext").innerHTML = movieScene1;
         
     }
-    else{
+    if(randomTopic == 2){
         alert("This is MadLibs! Press OK to continue!");
         var noun = prompt("Give me a noun!");
         var pronoun = prompt("Give me a pronoun!")

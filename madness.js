@@ -27,6 +27,21 @@ function buttonPressed(){
         document.querySelector("#jstext").innerHTML = movieScene2;
 
     }
+    if(randomTopic == 3) {
+        alert("This is MadLibs! Press OK to continue!");
+        var verb = prompt("Give me a verb that ends in 'ing'!");
+        var pronoun = prompt("Give me a pronoun!");
+        var name = prompt("Give me a name!");
+
+        var movieScene3 = ("You're  " + verb + "   " + pronoun + " apart "+ name);
+
+        document.body.appendChild(document.createElement('p'));
+        document.querySelector("body p:last-child").id = "jstext";
+        document.querySelector("#jstext").innerHTML = movieScene3;
+
+    }
+
+
 
     
     

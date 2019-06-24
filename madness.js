@@ -41,7 +41,8 @@ function buttonPressed(){
 
     }
 
-
+    var p = document.getElementById("label");
+    p.style.display = "block";  	
 
     
     

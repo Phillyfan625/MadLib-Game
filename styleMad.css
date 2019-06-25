@@ -9,20 +9,31 @@ body{
 h1{
     color:blue;
     font-size: 100px;
+    left:0px;
     font-family:  tomarik-display-shadow, sans-serif;
 }
 
 label{
-    color:blue;
+    
     font-size: 50px;
     position: relative;
-    left: 40px;
+    left: 0px;
     top: 50px;
-    font-family:  tomarik-display-shadow, sans-serif;
+    
     
 }
+
+.lab{
+    color: black;
+    top: -80px;
+    left: 0px;
+    position: relative;
+    text-decoration: underline; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+
 button{
-    font-size: 500%;
+    font-size: 250%;
     font-family:  tomarik-display-shadow, sans-serif;
 
 }
